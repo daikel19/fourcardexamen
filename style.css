@@ -40,12 +40,18 @@ body{
     margin: auto;
 }
 
+.caja1 span{
+    color: var(--VeryDarkBlue);
+}
+
 .caja1 h2{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
 }
 
 .caja1 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--GrayishBlue);
 }
 
 .caja2{
@@ -70,6 +76,7 @@ body{
 
 .caja2 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--GrayishBlue);
 }
 
 .Supervisor{
@@ -101,6 +108,7 @@ body{
 
 .caja3 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--GrayishBlue);
 }
 
 .Teambuilder{
@@ -129,6 +137,7 @@ body{
 
 .caja4 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--GrayishBlue);
 }
 
 .Karma{
@@ -157,6 +166,7 @@ body{
 
 .caja5 p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--GrayishBlue);
 }
 
 .Calculator{
@@ -167,15 +177,20 @@ body{
     .caja{
         width: 100rem;
     }
+    .caja1{
+        padding: 1rem;
+        
+    }
     .contenedor{
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        width: 85rem;
+        width: 90rem;
     }
     .contenedor2{
-        width: 85rem;
+        width: 100rem;
+        
         
     }
 }
